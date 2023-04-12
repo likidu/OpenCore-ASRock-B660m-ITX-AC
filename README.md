@@ -33,13 +33,13 @@ In BIOS, use `F6` to swtich to `Advanced Mode`.
 - Intel Hyper-Threading Technology: **Enabled**
 - **CFG Lock**: **Disabled**
 - Intel Virtualization Technology: **Enabled**
-- **Software Guard Extensions (SGX)**
+- **Software Guard Extensions (SGX)**: **Disabled**
 
 ### Advanced - Chipset Configuration
 
 - Primary Graphics Adapter: **PCIe**
 - Above 4G Decoding: **Enabled**
-- **C.A.M (Clever Access Memory): **Enabled\*\*
+- **C.A.M (Clever Access Memory)**: **Enabled**
 
 ### Advanced - Storage Configuration
 
@@ -71,7 +71,7 @@ In BIOS, use `F6` to swtich to `Advanced Mode`.
 ### Boot
 
 - Fast Boot: **Disabled**
-- CSM: **Disabled**ß
+- **CSM**: **Disabled**
 
 ## Reference
 
