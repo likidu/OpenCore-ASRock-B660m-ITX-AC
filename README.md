@@ -24,56 +24,54 @@ Reference - [黑苹果华擎 Asrock 主板 BIOS 详细截图设置教程](https:
 
 In BIOS, use `F6` to swtich to `Advanced Mode`.
 
-### Disable
+### OC Tweaker
 
-#### OC Tweaker
+- Intel Turbo Boost Max Technology 3.0: **Enabled**
 
--
+### Advanced - CPU Configuration
 
-* Advanced
-  - CPU Configuration
-    - Intel Virtualization Technology: Disabled
-    - Intel VT-d: Disabled
-    - Execute Disable Bit: Enabled
-    - Hyper-Threading: Enabled
-    - Intel SpeedStep Technology: Enabled
-    - Intel Turbo Boost Technology: Enabled
-    - C-States: Enabled
-    - Enhanced Intel SpeedStep Technology: Enabled
-    - Intel Hyper-Threading Technology: Enabled
-    - Intel Turbo Boost Max Technology 3.0: Enabled
-    - Intel Turbo Boost Max Technology 3.0 Driver: Enabled
-    - Intel Turbo Boost Max Technology 3.0 Monitor: Enabled
-    - Intel Turbo Boost Max Technology 3.0 Performance Preference: Performance
-    - Intel Turbo Boost Max Technology 3.0 Power Preference: Performance
-    - Intel Turbo Boost Max Technology 3.0 Technology: Enabled
-    - Intel Turbo Boost Technology: Enabled
-    - Intel Turbo Boost Technology Driver: Enabled
-    - Intel Turbo Boost Technology Monitor: Enabled
-    - Intel Turbo Boost Technology Performance Preference: Performance
-    - Intel Turbo Boost Technology Power Preference: Performance
-    - Intel Turbo Boost Technology Technology: Enabled
-    - Intel Turbo Boost Technology Technology Driver: Enabled
-    - Intel Turbo Boost Technology Technology Monitor: Enabled
-    - Intel Turbo Boost Technology Technology Performance Preference: Performance
-    - Intel Turbo Boost Technology Technology Power Preference: Performance
-    - Intel Turbo Boost Technology Technology Technology: Enabled
-    - Intel Turbo Boost Technology Technology Technology Driver: Enabled
-    - Intel Turbo Boost Technology Technology Technology Monitor: Enabled
-    - Intel Turbo Boost Technology Technology Technology Performance Preference: Performance
-    - Intel Turbo Boost Technology Technology Technology Power Preference: Performance
-    - Intel Turbo Boost Technology Technology Technology Technology: Enabled
-    - Intel Turbo Boost Technology Technology Technology Technology Driver: Enabled
-    - Intel Turbo Boost Technology Technology Technology Technology Monitor: Enabled
-    - Intel Turbo Boost Technology Technology Technology Technology Performance Preference: Performance
-    - Intel Turbo Boost Technology Technology Technology Technology Power Preference: Performance
-    - Intel Turbo Boost Technology Technology Technology Technology Technology: Enabled
-    - Intel Turbo Boost Technology Technology Technology Technology Technology Driver: Enabled
-    - Intel Turbo Boost Technology Technology Technology Technology Technology Monitor: Enabled
-    - Intel Turbo Boost Technology Technology Technology Technology Technology Performance Preference: Performance
-    - Intel Turbo Boost Technology Technology Technology Technology Technology Power Preference: Performance
-    - Intel Turbo Boost Technology Technology Technology Technology Technology Technology: Enabled
-    -
+- Intel Hyper-Threading Technology: **Enabled**
+- **CFG Lock**: **Disabled**
+- Intel Virtualization Technology: **Enabled**
+- **Software Guard Extensions (SGX)**
+
+### Advanced - Chipset Configuration
+
+- Primary Graphics Adapter: **PCIe**
+- Above 4G Decoding: **Enabled**
+- **C.A.M (Clever Access Memory): **Enabled\*\*
+
+### Advanced - Storage Configuration
+
+- SATA Mode Selection: **AHCI**
+
+### Advanced - USB Configuration
+
+- Legacy USB Support: **Enabled**
+- XHCI Hand-off: **Enabled**
+
+### Advanced - ACPI Configuration
+
+- PS/2 Keyboard S4/S5 Wakup Support: **Enabled**
+- USB Keyboard/Remote Power On: **Enabled**
+- USB Mouse Power On: **Enabled**
+
+### Advanced - Trusted Computing
+
+- Security Device Support: **Disabled**
+
+### Advanced - Super IO Configuration
+
+- Serial Port: **Enabled**
+
+### Security
+
+- **Secure Boot**: **Disabled**
+
+### Boot
+
+- Fast Boot: **Disabled**
+- CSM: **Disabled**ß
 
 ## Reference
 
