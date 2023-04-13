@@ -8,11 +8,11 @@
 | -------------------- | -------------------------------------------------------------------------------------- |
 | CPU                  | Intel Core i5 12400                                                                    |
 | Motherboard          | [Asrock B660M-ITX/ac](https://www.asrock.com/mb/Intel/B660M-ITXac/index.asp)           |
-| RAM                  | 16GB (2 x 8GB) GSkill @ 2666 CL15                                                      |
+| RAM                  | 16GB (2 x 8GB) G.Skill @ 2666 CL15                                                     |
 | GPU                  | [PowerColor Hellhound RX 6600 - 8GB](https://www.powercolor.com/product?id=1630396326) |
 | OS Disk (Nvme/Sata3) | SK Hynix P31 1TB                                                                       |
-| WiFi / Bluetooth     | Onboard Intel AX210 and Bluetooth                                                      |
-| Display              | 2 x 4K (LG and Benq) @ 60Hz                                                            |
+| WiFi / Bluetooth     | Intel Wireless AC 9462 and Bluetooth                                                   |
+| Display              | 2 x 4K (LG and BenQ EW3270) @ 60Hz                                                     |
 
 ![Ventura](./doc/images/ventura.png)
 
@@ -77,3 +77,4 @@ In BIOS, use `F6` to swtich to `Advanced Mode`.
 
 - [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [OpenCore Alder Lake (12th-Gen Intel) Hackintosh Guidance](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/)
+- [Fix shutdown and restart](https://github.com/Koala166/The-TLDR-Guide-of-Fixing-Shutdown-Restart)
