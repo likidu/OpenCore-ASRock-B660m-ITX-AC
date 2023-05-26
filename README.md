@@ -1,12 +1,13 @@
 # Hackintosh - Opencore EFI for Asrock B660M-ITX/ac
 
-**[4/11]**: First commit using OpenCore 0.9.1.
+- **[5/26]**: Update to OpenCore 0.9.2. Tested on macOS Ventura 13.4.
+- **[4/11]**: First commit using OpenCore 0.9.1.
 
 ## Hardware
 
 | **Component**        | **Model**                                                                              |
 | -------------------- | -------------------------------------------------------------------------------------- |
-| CPU                  | Intel Core i5 12400                                                                    |
+| CPU                  | Intel Core i5 12400F                                                                   |
 | Motherboard          | [Asrock B660M-ITX/ac](https://www.asrock.com/mb/Intel/B660M-ITXac/index.asp)           |
 | RAM                  | 16GB (2 x 8GB) G.Skill @ 2666 CL15                                                     |
 | GPU                  | [PowerColor Hellhound RX 6600 - 8GB](https://www.powercolor.com/product?id=1630396326) |
