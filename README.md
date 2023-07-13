@@ -1,5 +1,7 @@
 # Hackintosh - Opencore EFI for Asrock B660M-ITX/ac
 
+> macOS Sonoma beta support is in the [sonoma](https://github.com/likidu/OpenCore-ASRock-B660m-ITX-AC/tree/sonoma) branch.
+
 - **[5/26]**: Update to OpenCore 0.9.2. Tested on macOS Ventura 13.4.
 - **[4/11]**: First commit using OpenCore 0.9.1.
 
