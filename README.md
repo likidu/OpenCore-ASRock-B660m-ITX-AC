@@ -1,5 +1,8 @@
 # Hackintosh - Opencore EFI for Asrock B660M-ITX/ac
 
+> **This branch is particularly for macOS Sonoma beta. It will be merged to main after the version is getting into GM.**
+
+- **[7/13]**: Update to OpenCore 0.9.4 beta. Intel WiFI it uses the [preview version v0.2](https://github.com/OpenIntelWireless/itlwm/issues/883#issuecomment-1625204187) which seems fully working.
 - **[5/26]**: Update to OpenCore 0.9.2. Tested on macOS Ventura 13.4.
 - **[4/11]**: First commit using OpenCore 0.9.1.
 
@@ -15,7 +18,7 @@
 | WiFi / Bluetooth     | Intel Wireless AC 9462 and Bluetooth                                                   |
 | Display              | 2 x 4K (LG and BenQ EW3270) @ 60Hz                                                     |
 
-![Ventura](./doc/images/ventura.png)
+![Sonoma](./doc/images/sonoma.png)
 
 ## BIOS Settings
 
