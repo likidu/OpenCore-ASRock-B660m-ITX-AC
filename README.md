@@ -1,9 +1,10 @@
 # Hackintosh - Opencore EFI for Asrock B660M-ITX/ac
 
-> **This branch is particularly for macOS Sonoma beta. It will be merged to main after the version is getting into GM.**
+Support for macOS Sonoma (14.0). If you are looking for Ventura (13.4) support, swtich to [ventura](https://github.com/likidu/OpenCore-ASRock-B660m-ITX-AC/tree/ventura) branch.
 
 ## Changelog
 
+- **[9/13]**: Updated to OpenCore 0.9.5 and macOS Sonoma GM.
 - **[8/24]**: Updated to macOS Sonoma beta 6 with OTA. All drivers and kexts stay the same.
 - **[8/9]**: Updated to OpenCore 0.9.4 GM. [macOS Sonoma beta 5](https://swcdn.apple.com/content/downloads/26/36/042-27162-A_4GKRLRWELJ/qyzyo86g692wlsewkyclfk686op47kuq5c/InstallAssistant.pkg) is released. It has changed API for WiFi therefore a new preview version of [Airportltlwm](https://github.com/OpenIntelWireless/itlwm/issues/883#issuecomment-1670749680) has to be used.
 - **[8/9]**: For Bluetooth, I am using Logitech MX Anywhere 3 mouse which has to be applied by [this patch](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/pull/446) to make it work. The patch is not merged yet so I have to use the CI build from [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/actions/runs/5639869912).
