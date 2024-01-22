@@ -1,9 +1,10 @@
 # Hackintosh - Opencore EFI for Asrock B660M-ITX/ac
 
-Support for macOS Sonoma (14.0). If you are looking for Ventura (13.4) support, swtich to [ventura](https://github.com/likidu/OpenCore-ASRock-B660m-ITX-AC/tree/ventura) branch.
+Support for macOS Sonoma (14). If you are looking for Ventura (13.4) support, swtich to [ventura](https://github.com/likidu/OpenCore-ASRock-B660m-ITX-AC/tree/ventura) branch.
 
 ## Changelog
 
+- **[1/22]**: Updated to OpenCore 0.9.7 and macOS Sonoma 14.3.
 - **[9/13]**: Updated to OpenCore 0.9.5 and macOS Sonoma GM.
 - **[8/24]**: Updated to macOS Sonoma beta 6 with OTA. All drivers and kexts stay the same.
 - **[8/9]**: Updated to OpenCore 0.9.4 GM. [macOS Sonoma beta 5](https://swcdn.apple.com/content/downloads/26/36/042-27162-A_4GKRLRWELJ/qyzyo86g692wlsewkyclfk686op47kuq5c/InstallAssistant.pkg) is released. It has changed API for WiFi therefore a new preview version of [Airportltlwm](https://github.com/OpenIntelWireless/itlwm/issues/883#issuecomment-1670749680) has to be used.
