@@ -4,10 +4,11 @@ Support for macOS Sonoma (14). If you are looking for Ventura (13.4) support, sw
 
 ## Changelog
 
-- **[1/22]**: Updated to OpenCore 0.9.7 and macOS Sonoma 14.3.
-- **[9/13]**: Updated to OpenCore 0.9.5 and macOS Sonoma GM.
+- **[3/26]**: Updated to OpenCore 0.9.9 and macOS Sonoma 14.4.1. New build [AirportItlwm-Sonoma14.4-v2.3.0-DEBUG-alpha-e886ebb.zip](https://github.com/OpenIntelWireless/itlwm/releases/download/v2.3.0-alpha/AirportItlwm-Sonoma14.4-v2.3.0-DEBUG-alpha-e886ebb.zip) is applied. While the IntelBluetoothFirmware v2.4.0 did not merge the Logitech MX fix, so now let's stick with the previous private build.
+- **[1/22]**: Updated to OpenCore 0.9.7 with macOS Sonoma 14.3.
+- **[9/13]**: Updated to OpenCore 0.9.5 with macOS Sonoma GM.
 - **[8/24]**: Updated to macOS Sonoma beta 6 with OTA. All drivers and kexts stay the same.
-- **[8/9]**: Updated to OpenCore 0.9.4 GM. [macOS Sonoma beta 5](https://swcdn.apple.com/content/downloads/26/36/042-27162-A_4GKRLRWELJ/qyzyo86g692wlsewkyclfk686op47kuq5c/InstallAssistant.pkg) is released. It has changed API for WiFi therefore a new preview version of [Airportltlwm](https://github.com/OpenIntelWireless/itlwm/issues/883#issuecomment-1670749680) has to be used.
+- **[8/9]**: Updated to OpenCore 0.9.4 GM with macOS Sonoma beta 5.
 - **[8/9]**: For Bluetooth, I am using Logitech MX Anywhere 3 mouse which has to be applied by [this patch](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/pull/446) to make it work. The patch is not merged yet so I have to use the CI build from [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/actions/runs/5639869912).
 - **[7/13]**: Update to OpenCore 0.9.4 beta. Intel WiFI it uses the [preview version v0.2](https://github.com/OpenIntelWireless/itlwm/issues/883#issuecomment-1625204187) which seems fully working.
 - **[5/26]**: Update to OpenCore 0.9.2. Tested on macOS Ventura 13.4.
@@ -23,7 +24,7 @@ Support for macOS Sonoma (14). If you are looking for Ventura (13.4) support, sw
 | GPU                  | [PowerColor Hellhound RX 6600 - 8GB](https://www.powercolor.com/product?id=1630396326) |
 | OS Disk (Nvme/Sata3) | SK Hynix P31 1TB                                                                       |
 | WiFi / Bluetooth     | Intel Wireless AC 9462 and Bluetooth                                                   |
-| Display              | 2 x 4K (LG and BenQ EW3270) @ 60Hz                                                     |
+| Display              | 2 x 4K (BenQ EW3270U and PD2704U) @ 60Hz on Display Port                               |
 
 ![Sonoma](./doc/images/sonoma.png)
 
@@ -84,6 +85,10 @@ In BIOS, use `F6` to swtich to `Advanced Mode`.
 - Fast Boot: **Disabled**
 - **CSM**: **Disabled**
 
+## Installation
+
+See [Installation notes](./doc/INSTALLATION.md).
+
 ## Notes
 
 - To enable OTA update, you have to include [RestrictEvents](https://github.com/acidanthera/RestrictEvents) kext and add boot flag:
@@ -92,8 +97,11 @@ In BIOS, use `F6` to swtich to `Advanced Mode`.
   revpatch=auto,sbvmm,asset
   ```
 
+- There was an issue about OpenCore will repeatly reboot until successfully get into the macOS. Removing `-v` in `boot-args` seems fix the issue.
+
 ## Reference
 
 - [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [OpenCore Alder Lake (12th-Gen Intel) Hackintosh Guidance](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/)
 - [Fix shutdown and restart](https://github.com/Koala166/The-TLDR-Guide-of-Fixing-Shutdown-Restart)
+- [OC Sanity Checker](https://sanitychecker.ocutils.me/)
