@@ -4,6 +4,7 @@ Support for macOS Sonoma (14). If you are looking for Ventura (13.4) support, sw
 
 ## Changelog
 
+- **[5/21]**: Updated to OpenCore 1.0.0 and macOS Sonoma 14.5. No new kexts or drivers are updated.
 - **[3/26]**: Updated to OpenCore 0.9.9 and macOS Sonoma 14.4.1. New build [AirportItlwm-Sonoma14.4-v2.3.0-DEBUG-alpha-e886ebb.zip](https://github.com/OpenIntelWireless/itlwm/releases/download/v2.3.0-alpha/AirportItlwm-Sonoma14.4-v2.3.0-DEBUG-alpha-e886ebb.zip) is applied. While the IntelBluetoothFirmware v2.4.0 did not merge the Logitech MX fix, so now let's stick with the previous private build.
 - **[1/22]**: Updated to OpenCore 0.9.7 with macOS Sonoma 14.3.
 - **[9/13]**: Updated to OpenCore 0.9.5 with macOS Sonoma GM.
