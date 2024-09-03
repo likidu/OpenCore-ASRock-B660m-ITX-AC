@@ -290,6 +290,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>AMFIPass.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AMFIPass</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string>SMC emulator</string>
@@ -567,6 +585,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCRadeonGPU</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IntelMausi.kext</string>
+				<key>Comment</key>
+				<string>IntelMausi.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausi</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1187,9 +1223,9 @@
 				<key>SystemAudioVolume</key>
 				<data>OQ==</data>
 				<key>boot-args</key>
-				<string>agdpmod=pikera -wegnoigpu alcid=66 revpatch=auto,sbvmm,asset</string>
+				<string>agdpmod=pikera -wegnoigpu alcid=66 -amfipassbeta revpatch=auto,sbvmm,asset</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
