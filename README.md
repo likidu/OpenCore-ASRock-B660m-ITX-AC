@@ -1,19 +1,10 @@
 # Hackintosh - Opencore EFI for Asrock B660M-ITX/ac
 
-Support for macOS Sonoma (14). If you are looking for Ventura (13.4) support, swtich to [ventura](https://github.com/likidu/OpenCore-ASRock-B660m-ITX-AC/tree/ventura) branch.
+Support for macOS Sequoia (15). If you are looking for Sonoma (14) support, swtich to [sonoma](https://github.com/likidu/OpenCore-ASRock-B660m-ITX-AC/tree/sonoma) branch.
 
 ## Changelog
 
-- **[5/21]**: Updated to OpenCore 1.0.0 and macOS Sonoma 14.5. No new kexts or drivers are updated.
-- **[3/26]**: Updated to OpenCore 0.9.9 and macOS Sonoma 14.4.1. New build [AirportItlwm-Sonoma14.4-v2.3.0-DEBUG-alpha-e886ebb.zip](https://github.com/OpenIntelWireless/itlwm/releases/download/v2.3.0-alpha/AirportItlwm-Sonoma14.4-v2.3.0-DEBUG-alpha-e886ebb.zip) is applied. While the IntelBluetoothFirmware v2.4.0 did not merge the Logitech MX fix, so now let's stick with the previous private build.
-- **[1/22]**: Updated to OpenCore 0.9.7 with macOS Sonoma 14.3.
-- **[9/13]**: Updated to OpenCore 0.9.5 with macOS Sonoma GM.
-- **[8/24]**: Updated to macOS Sonoma beta 6 with OTA. All drivers and kexts stay the same.
-- **[8/9]**: Updated to OpenCore 0.9.4 GM with macOS Sonoma beta 5.
-- **[8/9]**: For Bluetooth, I am using Logitech MX Anywhere 3 mouse which has to be applied by [this patch](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/pull/446) to make it work. The patch is not merged yet so I have to use the CI build from [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/actions/runs/5639869912).
-- **[7/13]**: Update to OpenCore 0.9.4 beta. Intel WiFI it uses the [preview version v0.2](https://github.com/OpenIntelWireless/itlwm/issues/883#issuecomment-1625204187) which seems fully working.
-- **[5/26]**: Update to OpenCore 0.9.2. Tested on macOS Ventura 13.4.
-- **[4/11]**: First commit using OpenCore 0.9.1.
+- **[9/20]**: Updated to OpenCore 1.0.1 and macOS Sequoia 15.0. Multiple kexts and drivers are updated.
 
 ## Hardware
 
@@ -27,7 +18,7 @@ Support for macOS Sonoma (14). If you are looking for Ventura (13.4) support, sw
 | WiFi / Bluetooth     | Intel Wireless AC 9462 and Bluetooth                                                   |
 | Display              | 2 x 4K (BenQ EW3270U and PD2704U) @ 60Hz on Display Port                               |
 
-![Sonoma](./doc/images/sonoma.png)
+![Sonoma](./doc/images/sequoia.png)
 
 ## BIOS Settings
 
@@ -91,6 +82,8 @@ In BIOS, use `F6` to swtich to `Advanced Mode`.
 See [Installation notes](./doc/INSTALLATION.md).
 
 ## Notes
+
+- Until now (9/20), we have to use itlwm and HeliPort to use AX201 WiFi.
 
 - To enable OTA update, you have to include [RestrictEvents](https://github.com/acidanthera/RestrictEvents) kext and add boot flag:
 
